@@ -1,12 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import Weather from "./Weather";
 import "./App.css";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
+function App() {
+  return (
+    <div className="App">
+      <Weather />
+    </div>
+  );
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />
