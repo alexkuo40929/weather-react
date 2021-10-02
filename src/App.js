@@ -1,17 +1,14 @@
  // eslint-disable-next-line
 import logo from './logo.svg';
+import Weather from "./Weather";
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       <h1>
-good morning
-       </h1>
-       </header>
-    </div>
-  );
+    return (
+      <div className="App">
+        <Weather />
+      </div>
+    );
 }
 
 export default App;
