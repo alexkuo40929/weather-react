@@ -47,11 +47,11 @@ export default function Weather() {
                 <div class="float-left">
                   <strong id="temperature">28</strong>
                   <span class="units">
-                    <a href="#" id="celsius-link" class="active">
+                    <a href="www.google.com" id="celsius-link" class="active">
                       °C
                     </a>{" "}
                     |{" "}
-                    <a href="#" id="fahrenheit-link">
+                    <a href="www.google.com" id="fahrenheit-link">
                       °F
                     </a>
                   </span>
@@ -83,7 +83,7 @@ export default function Weather() {
         <small>
           <a
             href="https://github.com/alexkuo40929/Vanilla-weather-app"
-            target="_blank"
+            target="_blank" rel="noreferrer" 
           >
             Open-source code
           </a>
